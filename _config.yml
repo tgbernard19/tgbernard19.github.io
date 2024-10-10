@@ -1,0 +1,20 @@
+# Site settings
+title: "Your Site Title"
+description: "A short description of your blog"
+baseurl: "" # Leave blank for the main site; use "/subdirectory" for a subdirectory
+url: "https://tgbernard19.github.io" # Your site's URL
+
+# Author information
+author: 
+  name: "Your Name"
+  email: "your-email@example.com"
+
+# Build settings
+markdown: kramdown # This is Jekyll's default Markdown parser
+theme: minima # Replace 'minima' with any other Jekyll theme you prefer
+
+# Folder settings
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
