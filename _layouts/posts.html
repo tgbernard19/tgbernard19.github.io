@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+    </header>
+
+    <main>
+        <article class="post-content">
+            <h2>{{ page.title }}</h2>
+            <p><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
+            {{ content }}
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    </footer>
+</body>
+</html>
