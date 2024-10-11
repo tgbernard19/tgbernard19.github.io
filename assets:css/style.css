@@ -1,5 +1,3 @@
-@import "{{ site.theme }}";
-architect
 /* Style for body */
 body {
     font-family: Arial, sans-serif;
@@ -67,4 +65,64 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Style for blog post content */
+.post-content {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for headers within posts */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    color: #007bff;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Style for links within posts */
+.post-content a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px solid #007bff;
+}
+
+.post-content a:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #0056b3;
+}
+
+/* Blockquote styling */
+.post-content blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin: 1rem 0;
+}
+
+/* Image styling within posts */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Lists styling */
+.post-content ul, .post-content ol {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
 }
