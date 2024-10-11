@@ -1,13 +1,13 @@
 # Site settings
-title: "Your Site Title"
-description: "A short description of your blog"
+title: "Tyler Bernard"
+description: "a website all about me"
 baseurl: "" # Leave blank for the main site; use "/subdirectory" for a subdirectory
 url: "https://tgbernard19.github.io" # Your site's URL
 
 # Author information
 author: 
-  name: "Your Name"
-  email: "your-email@example.com"
+  name: "Tyler Bernard"
+  email: "tgbernard19@berkeley.eddu"
 
 # Build settings
 markdown: kramdown # This is Jekyll's default Markdown parser
