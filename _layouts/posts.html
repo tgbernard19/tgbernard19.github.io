@@ -13,12 +13,12 @@
     </header>
 
     <main>
-        <article class="post-content">
-            <h2>{{ page.title }}</h2>
-            <p><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
-            {{ content }}
-        </article>
-    </main>
+    <article class="post-content">
+        <h2>{{ page.title }}</h2>
+        <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+        {{ content }}
+    </article>
+</main>
 
     <footer>
         <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
