@@ -11,7 +11,9 @@ author:
 
 # Build settings
 markdown: kramdown # This is Jekyll's default Markdown parser
-remote_theme: jekyll # Replace 'minima' with any other Jekyll theme you prefer
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # Replace 'minima' with any other Jekyll theme you prefer
 
 # Folder settings
 collections:
