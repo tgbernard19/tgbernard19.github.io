@@ -1,22 +1,74 @@
 # Site settings
 title: "Tyler Bernard"
-description: "a website all about me"
-baseurl: "" # Leave blank for the main site; use "/subdirectory" for a subdirectory
-url: "https://tgbernard19.github.io" # Your site's URL
+description: "Predictive biology, scalable climate tools, and writing to remember what matters."
+baseurl: ""  # Leave this blank unless the site lives in a subfolder
+url: "https://tgbernard19.github.io"  # Must match your GitHub Pages URL
 
-# Author information
-author: 
+# Author info
+author:
   name: "Tyler Bernard"
-  email: "tgbernard19@berkeley.eddu"
+  email: "tgbernard19@berkeley.edu"
 
 # Build settings
-markdown: kramdown # This is Jekyll's default Markdown parser
-remote_theme: pages-themes/architect@v0.2.0
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.24.0  # Swapped in a premium theme with blog/project layout support
 plugins:
-- jekyll-remote-theme # Replace 'minima' with any other Jekyll theme you prefer
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Folder settings
+# Pagination (for blog posts)
+paginate: 5
+paginate_path: "/essays/page:num"
+
+# Collections (blog, projects, etc.)
 collections:
-  posts:
+  projects:
     output: true
-    permalink: /:year/:month/:day/:title/
+    permalink: /projects/:name/
+
+# Defaults for layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Site navigation
+# You can tweak these paths once you've added pages
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: /projects/
+  - title: "Essays"
+    url: /essays/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+
+# SEO
+social:
+  name: "Tyler Bernard"
+  email: "tgbernard19@berkeley.edu"
+  links:
+    - "https://github.com/tgbernard19"
+    - "https://www.linkedin.com/in/yourprofile/"
+    - "https://your-substack-url"
+
+# Theme options
+minimal_mistakes_skin: "air"  # Other good ones: contrast, mint, dark, default
+logo: "/assets/images/logo.png"  # optional
