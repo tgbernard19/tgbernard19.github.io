@@ -71,3 +71,11 @@ social:
 # Theme options
 minimal_mistakes_skin: "air"
 logo: "/assets/images/logo.png"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
