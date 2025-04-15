@@ -2,7 +2,7 @@
 title: "Tyler Bernard"
 description: "Predictive biology, scalable climate tools, and writing to remember what matters."
 baseurl: ""  # Leave this blank unless the site lives in a subfolder
-url: "https://tgbernard19.github.io"  # Must match your GitHub Pages URL
+url: "https://tgbernard19.github.io"
 
 # Author info
 author:
@@ -11,7 +11,7 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.24.0  # Swapped in a premium theme with blog/project layout support
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -23,13 +23,13 @@ plugins:
 paginate: 5
 paginate_path: "/essays/page:num"
 
-# Collections (blog, projects, etc.)
+# Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name/
 
-# Defaults for layouts
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -46,8 +46,7 @@ defaults:
       layout: "single"
       author_profile: true
 
-# Site navigation
-# You can tweak these paths once you've added pages
+# Navigation
 nav:
   - title: "Home"
     url: "/"
@@ -70,5 +69,5 @@ social:
     - "https://your-substack-url"
 
 # Theme options
-minimal_mistakes_skin: "air"  # Other good ones: contrast, mint, dark, default
-logo: "/assets/images/logo.png"  # optional
+minimal_mistakes_skin: "air"
+logo: "/assets/images/logo.png"
