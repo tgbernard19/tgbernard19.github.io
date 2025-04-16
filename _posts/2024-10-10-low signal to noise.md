@@ -2,6 +2,7 @@
 layout: post
 title: "Low Signal to Noise"
 date: 2024-10-10
+excerpt: epistemic mood: shooting the shit
 ---
 _Friday October 4, 2024_
 
