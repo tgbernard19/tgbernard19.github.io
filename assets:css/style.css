@@ -106,3 +106,20 @@ footer {
     margin-bottom: 2rem;
 }
 
+body {
+    font-family: 'Georgia', serif;
+    color: #2a2a2a;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+main {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
