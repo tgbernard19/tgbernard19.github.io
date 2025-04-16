@@ -2,7 +2,7 @@
 layout: post
 title: "Small Worlds"
 date: 2024-10-10
-excerpt: epistemic mood: this & that
+excerpt: "epistemic mood: this & that"
 ---
 _Friday October 11, 2024_
 
