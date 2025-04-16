@@ -9,6 +9,7 @@ Hi — I’m Tyler Bernard, a PhD student at UC Berkeley studying environmental 
 This site collects what I’m working on, writing about, and building next.
 
 - 🧠 Read my [book reviews](./essays)
+- 📝 Read my [blog posts](/posts.html)
 - 🛠️ See my [projects](./projects)
 - 📄 View my [CV](./cv)
 - 📨 Or [contact me](mailto:tgbernard19@berkeley.edu)
