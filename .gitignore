@@ -1,0 +1,6 @@
+# Ignore system files
+.DS_Store
+learning/.DS_Store
+_posts/~$w signal to noise.docx
+learning/~$w signal to noise.docx
+_site/
